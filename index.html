@@ -23,6 +23,8 @@
     		margin: 30px auto;
     		background-color: white;
     		border-radius: 10px;
+    		height: 100em;
+    		position: relative;
 		}
 		p {
 			margin: 0;
@@ -47,25 +49,33 @@
       		font-size: 50px;
     		padding: 35px;
       	}
-      	
+      	#container{
+      		margin: 0;
+		    position: absolute;
+		    top: 45%;
+		    -ms-transform: translateY(-50%);
+		    transform: translateY(-50%);
+      	}
 	</style>
 </head>
 <body>
-	<!---<h1>
+	<div id="container">
+		<!---<h1>
 		<i>¿</i>
 		<span style="color:#3BADE7">NIÑO</span>	
 		ó
 		<span style="color:#F27DB1">NIÑA</span>
 		<i>?</i>	
-	</h1>-->
-	<img src="title.png" style="width: 100%; margin-top:10px;">
-	<div id="main">
-		<p>Te invitamos al </p>	
-		<img src="cake.png" style="width: 50%;">
-		<p>donde lo descubriremos juntos.   <br>
-		La celebración será el 21 de Agosto, <a style="color:#3BADE7" href="https://www.google.com/maps/place/Sur+115+2183,+Juventino+Rosas,+Iztacalco,+08700+Ciudad+de+M%C3%A9xico,+CDMX/@19.3900892,-99.1101263,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1fe86c5af2d2f:0x3a27045719c98cba!8m2!3d19.3900842!4d-99.1079322" target="_blank">en esta ubicación</a>. <br>
-		¡Te esperamos, no faltes!
-	</p>
+		</h1>-->
+		<img src="title.png" style="width: 100%; margin-top:10px;">
+		<div id="main">
+			<p>Te invitamos al </p>	
+				<img src="cake.png" style="width: 50%;">
+				<p>donde lo descubriremos juntos.   <br>
+				La celebración será el 21 de Agosto, <a style="color:#3BADE7" href="https://www.google.com/maps/place/Sur+115+2183,+Juventino+Rosas,+Iztacalco,+08700+Ciudad+de+M%C3%A9xico,+CDMX/@19.3900892,-99.1101263,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1fe86c5af2d2f:0x3a27045719c98cba!8m2!3d19.3900842!4d-99.1079322" target="_blank">en esta ubicación</a>. <br>
+				¡Te esperamos, no faltes!
+			</p>
+		</div>
 	</div>
 </body>
 </html>
