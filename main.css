@@ -1,0 +1,45 @@
+body{
+	background-image: url(img/paper.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nombres{
+	width: 50%;
+}
+
+#main{
+    font-family: 'Corinthia', serif;
+    font-size: 48px;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    
+}
+
+#main p{
+	font-size: 40px;
+	margin: 0;
+}
+
+#mapa{
+	background-image: url(img/mapa.png);
+	background-size: 60px;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    background-position: 0;
+    text-decoration: none;
+    
+}
+
+.anuncio{
+	color: #817CB4;
+    font-size: 100px;
+    display: block;
+}
+
+#lavanda{
+	width: 20em;
+    position: fixed;
+    top: 0;
+}
