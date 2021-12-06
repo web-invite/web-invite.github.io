@@ -16,6 +16,7 @@ body{
     margin: 0 auto;
     /*7background-image: url(img/marco.png);*/
     background-size: contain;
+    border: 5px double black;
 }
 
 #main p{
