@@ -12,11 +12,12 @@ body{
     font-family: 'Corinthia', serif;
     font-size: 28px;
     text-align: center;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     background-image: url(img/marco.png);
-    background-size: cover;
+    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: 50% 10%;
 }
 
 #main p{
