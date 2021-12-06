@@ -1,5 +1,5 @@
 body{
-	background-image: url(img/paper.jpg);
+	background-image: url(img/paperEsquina.jpg);
 	background-repeat: no-repeat;
     background-size: cover;
 }
@@ -12,7 +12,7 @@ body{
     font-family: 'Corinthia', serif;
     font-size: 28px;
     text-align: center;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     /*7background-image: url(img/marco.png);*/
     background-size: contain;
